@@ -3,9 +3,10 @@ import Link from "next/link";
 
 interface Item{
     id:number,
+    title:string,
     Briefing:string,
     imageInBlogRow:string,
-    title:string,
+    
     discription:string
 }
 async function fetchData(): Promise<Item[]> {

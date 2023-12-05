@@ -1,5 +1,12 @@
 import { NextResponse } from "next/server"
-export const blogsData=[{
+interface Blog {
+    Id: number;
+    title: string;
+    Briefing: string;
+    imageInBlogRow: string;
+    discription: string;
+  }
+ const blogsData:Blog[]=[{
     Id:1,
     title:"Unconcerened_Market",
     Briefing:"I excel in practical travel advice while Audrey and Dan, with their captivating storytelling and focus on cultural travel and sustainability, deserve votes for their incredible narratives and impactful photography, showcasing the human aspect of exploration.",

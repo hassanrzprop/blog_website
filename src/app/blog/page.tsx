@@ -39,8 +39,8 @@ export  default async function Bloog(){
           <div>
           <div className=".container">
             <div className="">
-            {items.map((item) => (
-              <div className="blogTitle">
+            {items.map((item,index) => (
+              <div className="blogTitle" key={index}>
                 <div className="material">
                <h1> {item.title}</h1><br/>
                </div>
