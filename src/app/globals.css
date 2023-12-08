@@ -10828,7 +10828,8 @@ a.text-dark:hover, a.text-dark:focus {
   text-align: center; /* Center text horizontally */
 }
 .text1{
-  size: 200vh;
+  size: 100px;
+  padding: 10% 13%;
   color:grey ;
 }
 .text2{
