@@ -12,7 +12,7 @@ interface Item{
     discription:string
 }
 async function fetchData(): Promise<Item[]> {
-    const response = await fetch("http://localhost:3000/api", {
+    const response = await fetch("/api", {
       next: {
         revalidate: 30,
       },
